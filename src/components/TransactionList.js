@@ -3,9 +3,7 @@ import { GlobalContext } from '../context/GlobalState';
 import Transaction from './Transaction';
 
 const TransactionList = () => {
-    const context = useContext(GlobalContext);
-
-    const { transactions } = context;
+    const { transactions } = useContext(GlobalContext);
 
     return (
         <div>
